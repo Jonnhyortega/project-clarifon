@@ -36,19 +36,19 @@ export const Hero = () => {
         {isMobile ? (
           <div className="steps">
             <div>
-              <img src="./src/assets/imgs/check.png" alt="" />
+              <img src="./src/assets/imgs/check.png" alt="Cart Review" />
               <p>Cart Review</p>
             </div>
             <div>
-              <img src="./src/assets/imgs/number three.png" alt="" />
+              <img src="./src/assets/imgs/number three.png" alt="Checkout" />
               <p>Checkout</p>
             </div>
-            <div>
-              <img src="./src/assets/imgs/4.png" alt="" />
-              <p>Special Offer</p>
+            <div id="special">
+              <img src="./src/assets/imgs/4.png" alt="Special Offer" />
+              <span>Special Offer</span>
             </div>
             <div>
-              <img src="./src/assets/imgs/check.png" alt="" />
+              <img src="./src/assets/imgs/check.png" alt="Confirmation" />
               <p>Confirmation</p>
             </div>
           </div>
@@ -63,7 +63,11 @@ export const Hero = () => {
               <p>Step 2: Checkout</p>
             </div>
             <div>
-              <img className="three" src="./src/assets/imgs/number three.png" alt="" />
+              <img
+                className="three"
+                src="./src/assets/imgs/number three.png"
+                alt=""
+              />
               <p>Step 3: Special Offer</p>
             </div>
             <div>

@@ -1,0 +1,18 @@
+.footer{
+    background-color: #252F3D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+#div1{
+    display: flex;
+    gap: 1.5rem;
+}
+
+#div2 {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+}

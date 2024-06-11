@@ -83,7 +83,7 @@ const Arrow = styled.div`
 
 const Text = styled.div`
   padding: 0 1rem;
-  font-size: 1.2rem;
+  font-size: .8rem;
 `;
 
 export default NavBar;

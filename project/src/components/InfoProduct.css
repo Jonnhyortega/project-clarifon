@@ -1,0 +1,153 @@
+#infoProduct {
+  width: 90%;
+  height: 879px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#box-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#box-opinion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+#box-left > img {
+  width: 575px;
+  height: 591px;
+}
+#perfil-info {
+  text-align: left;
+}
+#box-perfil {
+  display: flex;
+}
+#perfil-name {
+  display: flex;
+}
+
+#perfil-name > p {
+  font-weight: 800;
+}
+#perfil-name > span {
+  color: #5bb59a;
+}
+#box-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#box1 {
+  font-size: 32px;
+}
+
+#box2 {
+  display: flex;
+  gap: 1rem;
+}
+
+#box2 > img {
+  background-color: #2c7ef8;
+  border-radius: 10px;
+}
+
+#clarifionAirIonizer {
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+#priceIonizer {
+  display: flex;
+  gap: 1rem;
+}
+
+.priceIonizer1 {
+  font-size: 16px;
+  color: #969696;
+  text-align: center;
+}
+
+.priceIonizer2 {
+  font-size: 22px;
+  color: #2c7ef8;
+  font-weight: 600;
+}
+
+#box2-left {
+  text-align: left;
+}
+
+#box2-left > p > img {
+  margin-right: 1rem;
+}
+
+#box3 > p {
+  text-align: left;
+}
+
+#box4 > p {
+  padding: 1rem;
+  background-color: #edf3fd;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.blueContent {
+  color: #2c7ef8;
+}
+
+#sectOne > button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #59ae43;
+  color: white;
+  margin: 0 auto 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 80%;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#sectOne > button:hover {
+  background-color: gold;
+}
+
+#sectTwo {
+  display: flex;
+  flex-direction: column;
+}
+
+#sectTwo > p {
+  color: Red;
+  font-weight: 600;
+}
+.secure256 {
+  display: flex;
+  gap: 1rem;
+}
+
+#box5-sectTwo-Img > img {
+  width: 50px;
+}
+
+#box6 {
+  display: flex;
+  align-items: center;
+}
+
+.emblema {
+  width: 88px;
+  height: 88px;
+}
