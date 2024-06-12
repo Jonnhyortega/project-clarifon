@@ -48,7 +48,7 @@ export const Hero = () => {
               <span>Special Offer</span>
             </div>
             <div>
-              <img src="./src/assets/imgs/check.png" alt="Confirmation" />
+              <img src="./src/assets/imgs/4.png" alt="Confirmation" />
               <p>Confirmation</p>
             </div>
           </div>
@@ -63,11 +63,7 @@ export const Hero = () => {
               <p>Step 2: Checkout</p>
             </div>
             <div>
-              <img
-                className="three"
-                src="./src/assets/imgs/number three.png"
-                alt=""
-              />
+              <img className="three" src="./src/assets/imgs/number three.png" alt="" />
               <p>Step 3: Special Offer</p>
             </div>
             <div>

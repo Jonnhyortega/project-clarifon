@@ -44,12 +44,11 @@
 .steps > div > p {
   font-size: 20px;
   font-weight: 400;
-  }
-  
-  .steps > #special> span {
-    font-weight: 700;
-  }
+}
 
+.steps > #special > span {
+  font-weight: 700;
+}
 
 .check {
   color: #85bf55;
@@ -57,4 +56,26 @@
 
 #hero-box-three {
   margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+  #hero-box-one > img {
+    width: 106.67px;
+    height: 20px;
+  }
+  .steps > div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  #hero-box-one {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #box-img-2{
+    gap: 2rem;
+  }
 }

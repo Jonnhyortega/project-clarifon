@@ -1,9 +1,14 @@
 #infoProduct {
   width: 90%;
-  height: 879px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 0 auto 5rem auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#box-left,
+#box-right {
+  flex: 1;
 }
 #box-left {
   display: flex;
@@ -17,18 +22,27 @@
   gap: 1rem;
   padding: 1rem;
 }
+
+#box-opinion > p {
+  text-align: left;
+}
 #box-left > img {
   width: 575px;
   height: 591px;
 }
 #perfil-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   text-align: left;
 }
 #box-perfil {
   display: flex;
+  gap: 1rem;
 }
 #perfil-name {
   display: flex;
+  gap: 0.5rem;
 }
 
 #perfil-name > p {
@@ -91,6 +105,8 @@
 
 #box3 > p {
   text-align: left;
+  display: flex;
+  gap: 1rem;
 }
 
 #box4 > p {
@@ -100,7 +116,7 @@
   text-align: left;
 }
 
-.blueContent {
+#blueContent {
   color: #2c7ef8;
 }
 
@@ -130,16 +146,34 @@
 }
 
 #sectTwo > p {
-  color: Red;
+  width: 50%;
+  margin: 1rem auto 0 auto;
+  color: #f82c2c;
   font-weight: 600;
+  font-size: 18px;
+  text-decoration: underline;
 }
-.secure256 {
+
+#secure256 {
   display: flex;
   gap: 1rem;
+  border: 1px solid #cfcfcf;
+  padding: 0.5rem;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+#secure256 > span {
+  color: #cfcfcf;
+}
+#secure256 > p {
+  color: #4d5254;
+  font-size: 12px;
 }
 
 #box5-sectTwo-Img > img {
-  width: 50px;
+  width: 24px;
+  height: 14px;
 }
 
 #box6 {
@@ -147,7 +181,25 @@
   align-items: center;
 }
 
-.emblema {
+#box6 > p {
+  text-align: left;
+  font-size: 16px;
+}
+#emblema {
+  margin: 0;
   width: 88px;
   height: 88px;
+}
+
+@media (max-width: 1100px) {
+  #box-left > img {
+    width: 100%;
+  }
+  #infoProduct {
+    flex-direction: column;
+  }
+
+  #sectOne > button > p {
+    font-size: 14px;
+  }
 }

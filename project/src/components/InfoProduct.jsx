@@ -13,24 +13,24 @@ export const InfoProduct = () => {
               <div id="perfil-name">
                 <p>Ken T.</p>
                 <span>
-                  <i class="fa-solid fa-certificate"></i> Verified Customer
+                  <i className="fa-solid fa-certificate"></i> Verified Customer
                 </span>
               </div>
             </div>
           </div>
-          <div>
+          <p>
             “As soon as the Clarifions arrived I put one in my bedroom. This was
             late in the afternoon. When I went to the bedroom in the evening it
             smelled clean. When I went to bed I felt I could breathe better.
             Wonderful.”
-          </div>
+          </p>
         </div>
       </div>
-      <div id="box-right">
+      <div id="box-right">  
         <div id="box1">
-          <span className="blueContent">ONE TIME ONLY</span>
+          <span id="blueContent">ONE TIME ONLY</span>
           Special price for 6 extra Clarifion for only
-          <span className="blueContent">$14 Each</span> ($84.00 total!)
+          <span id="blueContent">$14 Each</span> ($84.00 total!)
         </div>
 
         <div id="box2">
@@ -90,10 +90,10 @@ export const InfoProduct = () => {
             </button>
           </section>
           <section id="sectTwo">
-            <div className="secure256">
-              <p>Free Shipping</p>
-              <i class="fa-solid fa-lock"></i>
-              <p>Secure 256-bit SSL encryption.</p>
+            <div id="secure256">
+              <p>Free Shipping</p> <span>|</span>
+              <i className="fa-solid fa-lock"></i>
+              <p>Secure 256-bit SSL encryption.</p><span>|</span>
               <div id="box5-sectTwo-Img">
                 <img src="./src/assets/imgs/visa.svg" alt="Visa" />
                 <img src="./src/assets/imgs/shop pay.svg" alt="O Pay" />
@@ -110,13 +110,13 @@ export const InfoProduct = () => {
 
         <div id="box6">
           <img
-            className="emblema"
+            id="emblema"
             src="./src/assets/imgs/emblema-garantia.png"
             alt="Emblema"
           />
           <p>
-            If you are not completely thrilled with your Clarifion - We have a
-            <strong>30 day satisfaction guarantee</strong>. Please refer to our return policy at
+            If you are not completely thrilled with your Clarifion - We have a 
+            <strong> 30 day satisfaction guarantee</strong>. Please refer to our return policy at
             the bottom of the page for more details. Happy Shopping!
           </p>
         </div>
