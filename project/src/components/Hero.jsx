@@ -19,13 +19,13 @@ export const Hero = () => {
   return (
     <div id="hero">
       <div id="hero-box-one">
-        <img src="./src/assets/imgs/clarifon.png" alt="Logo Clarifon" />
+        <img src="./public/assets/imgs/clarifon.png" alt="Logo Clarifon" />
         <div id="box-img-2">
           <img
-            src="./src/assets/imgs/Frame 1484578055.png"
+            src="./public/assets/imgs/Frame 1484578055.png"
             alt="Logo Clarifon"
           />
-          <img src="./src/assets/imgs/norton.png" alt="MCaffe" />
+          <img src="./public/assets/imgs/norton.png" alt="MCaffe" />
         </div>
       </div>
       <div id="hero-box-two">
@@ -36,38 +36,45 @@ export const Hero = () => {
         {isMobile ? (
           <div className="steps">
             <div>
-              <img src="./src/assets/imgs/check.png" alt="Cart Review" />
+              <img src="./public/assets/imgs/check.png" alt="Cart Review" />
               <p>Cart Review</p>
             </div>
             <div>
-              <img src="./src/assets/imgs/check.png" alt="Checkout" />
+              <img src="./public/assets/imgs/check.png" alt="Checkout" />
               <p>Checkout</p>
             </div>
             <div id="special">
-              <img src="./src/assets/imgs/number three.png" alt="Special Offer" />
+              <img
+                src="./public/assets/imgs/number three.png"
+                alt="Special Offer"
+              />
               <span>Special Offer</span>
             </div>
             <div>
-              <img src="./src/assets/imgs/4.png" alt="Confirmation" />
+              <img src="./public/assets/imgs/4.png" alt="Confirmation" />
               <p>Confirmation</p>
             </div>
           </div>
         ) : (
           <div className="steps">
             <div>
-              <img className="check" src="./src/assets/imgs/check.png" alt="" />
+              <img className="check" src="./public/assets/imgs/check.png" alt="" />
               <p>Step 1: Cart Review</p>
             </div>
             <div>
-              <img className="check" src="./src/assets/imgs/check.png" alt="" />
+              <img className="check" src="./public/assets/imgs/check.png" alt="" />
               <p>Step 2: Checkout</p>
             </div>
             <div>
-              <img className="three" src="./src/assets/imgs/number three.png" alt="" />
+              <img
+                className="three"
+                src="./public/assets/imgs/number three.png"
+                alt=""
+              />
               <p>Step 3: Special Offer</p>
             </div>
             <div>
-              <img className="fourt" src="./src/assets/imgs/4.png" alt="" />
+              <img className="fourt" src="./public/assets/imgs/4.png" alt="" />
               <p>Step 4: Confirmation</p>
             </div>
           </div>

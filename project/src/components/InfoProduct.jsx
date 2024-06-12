@@ -4,10 +4,10 @@ export const InfoProduct = () => {
   return (
     <div id="infoProduct">
       <div id="box-left">
-        <img src="./src/assets/imgs/big-img.png" alt="" />
+        <img src="./public/assets/imgs/big-img.png" alt="" />
         <div id="box-opinion">
           <div id="box-perfil">
-            <img src="./src/assets/imgs/perfil.png" alt="" />
+            <img src="./public/assets/imgs/perfil.png" alt="" />
             <div id="perfil-info">
               <p>⭐⭐⭐</p>
               <div id="perfil-name">
@@ -26,7 +26,7 @@ export const InfoProduct = () => {
           </p>
         </div>
       </div>
-      <div id="box-right">  
+      <div id="box-right">
         <div id="box1">
           <span id="blueContent">ONE TIME ONLY</span>
           Special price for 6 extra Clarifion for only
@@ -35,7 +35,7 @@ export const InfoProduct = () => {
 
         <div id="box2">
           <img
-            src="./src/assets/imgs/dispositivo.svg"
+            src="./public/assets/imgs/dispositivo.svg"
             alt="Dispositivo Clarifion"
           />
           <div id="box2-left">
@@ -48,7 +48,7 @@ export const InfoProduct = () => {
             </div>
             <p>⭐⭐⭐⭐⭐</p>
             <p>
-              <img src="./src/assets/imgs/Ellipse 95.png" alt="Ellipse" />
+              <img src="./public/assets/imgs/Ellipse 95.png" alt="Ellipse" />
               12 left in Stock
             </p>
             <p>
@@ -60,15 +60,15 @@ export const InfoProduct = () => {
 
         <div id="box3">
           <p>
-            <img src="./src/assets/imgs/tick-circle.svg" alt="check" />
+            <img src="./public/assets/imgs/tick-circle.svg" alt="check" />
             Negative Ion Technology may help with allergens
           </p>
           <p>
-            <img src="./src/assets/imgs/tick-circle.svg" alt="check" />
+            <img src="./public/assets/imgs/tick-circle.svg" alt="check" />
             Designed for air rejuvenation
           </p>
           <p>
-            <img src="./src/assets/imgs/tick-circle.svg" alt="check" />
+            <img src="./public/assets/imgs/tick-circle.svg" alt="check" />
             Perfect for every room in all types of places.
           </p>
         </div>
@@ -93,15 +93,19 @@ export const InfoProduct = () => {
             <div id="secure256">
               <p>Free Shipping</p> <span>|</span>
               <i className="fa-solid fa-lock"></i>
-              <p>Secure 256-bit SSL encryption.</p><span>|</span>
+              <p>Secure 256-bit SSL encryption.</p>
+              <span>|</span>
               <div id="box5-sectTwo-Img">
-                <img src="./src/assets/imgs/visa.svg" alt="Visa" />
-                <img src="./src/assets/imgs/shop pay.svg" alt="O Pay" />
-                <img src="./src/assets/imgs/paypal.svg" alt="Paypal" />
-                <img src="./src/assets/imgs/mastercard.svg" alt="Mastercard" />
-                <img src="./src/assets/imgs/gpay.svg" alt="Google Pay" />
-                <img src="./src/assets/imgs/apple.svg" alt="Apple Pay" />
-                <img src="./src/assets/imgs/amex.svg" alt="Amex" />
+                <img src="./public/assets/imgs/visa.svg" alt="Visa" />
+                <img src="./public/assets/imgs/shop pay.svg" alt="O Pay" />
+                <img src="./public/assets/imgs/paypal.svg" alt="Paypal" />
+                <img
+                  src="./public/assets/imgs/mastercard.svg"
+                  alt="Mastercard"
+                />
+                <img src="./public/assets/imgs/gpay.svg" alt="Google Pay" />
+                <img src="./public/assets/imgs/apple.svg" alt="Apple Pay" />
+                <img src="./public/assets/imgs/amex.svg" alt="Amex" />
               </div>
             </div>
             <p>NO THANKS, I DONT´T WANT THIS</p>
@@ -111,13 +115,14 @@ export const InfoProduct = () => {
         <div id="box6">
           <img
             id="emblema"
-            src="./src/assets/imgs/emblema-garantia.png"
+            src="./public/assets/imgs/emblema-garantia.png"
             alt="Emblema"
           />
           <p>
-            If you are not completely thrilled with your Clarifion - We have a 
-            <strong> 30 day satisfaction guarantee</strong>. Please refer to our return policy at
-            the bottom of the page for more details. Happy Shopping!
+            If you are not completely thrilled with your Clarifion - We have a
+            <strong> 30 day satisfaction guarantee</strong>. Please refer to our
+            return policy at the bottom of the page for more details. Happy
+            Shopping!
           </p>
         </div>
       </div>
