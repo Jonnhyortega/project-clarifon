@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./Hero.css";
+import clarifonLogo from '/src/assets/imgs/clarifon.png';
+import frameImage from '/src/assets/imgs/Frame 1484578055.png';
+import nortonImage from '/src/assets/imgs/norton.png';
+import checkImage from '/src/assets/imgs/check.png';
+import numberThreeImage from '/src/assets/imgs/number three.png';
+import fourImage from '/src/assets/imgs/4.png';
 
 export const Hero = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -19,13 +25,10 @@ export const Hero = () => {
   return (
     <div id="hero">
       <div id="hero-box-one">
-        <img src="./assets/imgs/clarifon.png" alt="Logo Clarifon" />
+        <img src={clarifonLogo} alt="Logo Clarifon" />
         <div id="box-img-2">
-          <img
-            src="./assets/imgs/Frame 1484578055.png"
-            alt="Logo Clarifon"
-          />
-          <img src="./assets/imgs/norton.png" alt="MCaffe" />
+          <img src={frameImage} alt="Frame" />
+          <img src={nortonImage} alt="Norton" />
         </div>
       </div>
       <div id="hero-box-two">
@@ -36,38 +39,38 @@ export const Hero = () => {
         {isMobile ? (
           <div className="steps">
             <div>
-              <img src="./assets/imgs/check.png" alt="Cart Review" />
+              <img src={checkImage} alt="Cart Review" />
               <p>Cart Review</p>
             </div>
             <div>
-              <img src="./assets/imgs/check.png" alt="Checkout" />
+              <img src={checkImage} alt="Checkout" />
               <p>Checkout</p>
             </div>
             <div id="special">
-              <img src="./assets/imgs/number three.png" alt="Special Offer" />
+              <img src={numberThreeImage} alt="Special Offer" />
               <span>Special Offer</span>
             </div>
             <div>
-              <img src="./assets/imgs/4.png" alt="Confirmation" />
+              <img src={fourImage} alt="Confirmation" />
               <p>Confirmation</p>
             </div>
           </div>
         ) : (
           <div className="steps">
             <div>
-              <img className="check" src="./assets/imgs/check.png" alt="" />
+              <img className="check" src={checkImage} alt="Step 1" />
               <p>Step 1: Cart Review</p>
             </div>
             <div>
-              <img className="check" src="./assets/imgs/check.png" alt="" />
+              <img className="check" src={checkImage} alt="Step 2" />
               <p>Step 2: Checkout</p>
             </div>
             <div>
-              <img className="three" src="./assets/imgs/number three.png" alt="" />
+              <img className="three" src={numberThreeImage} alt="Step 3" />
               <p>Step 3: Special Offer</p>
             </div>
             <div>
-              <img className="fourt" src="./src/assets/imgs/4.png" alt="" />
+              <img className="fourt" src={fourImage} alt="Step 4" />
               <p>Step 4: Confirmation</p>
             </div>
           </div>

@@ -1,13 +1,27 @@
 import React from "react";
 import "./InfoProduct.css";
+import bigImg from '/src/assets/imgs/big-img.png';
+import perfilImg from '/src/assets/imgs/perfil.png';
+import dispositivoImg from '/src/assets/imgs/dispositivo.svg';
+import ellipseImg from '/src/assets/imgs/Ellipse 95.png';
+import tickCircleImg from '/src/assets/imgs/tick-circle.svg';
+import visaImg from '/src/assets/imgs/visa.svg';
+import shopPayImg from '/src/assets/imgs/shop pay.svg';
+import paypalImg from '/src/assets/imgs/paypal.svg';
+import mastercardImg from '/src/assets/imgs/mastercard.svg';
+import gpayImg from '/src/assets/imgs/gpay.svg';
+import appleImg from '/src/assets/imgs/apple.svg';
+import amexImg from '/src/assets/imgs/amex.svg';
+import emblemaImg from '/src/assets/imgs/emblema-garantia.png';
+
 export const InfoProduct = () => {
   return (
     <div id="infoProduct">
       <div id="box-left">
-        <img src="./src/assets/imgs/big-img.png" alt="" />
+        <img src={bigImg} alt="Big" />
         <div id="box-opinion">
           <div id="box-perfil">
-            <img src="./src/assets/imgs/perfil.png" alt="" />
+            <img src={perfilImg} alt="Perfil" />
             <div id="perfil-info">
               <p>⭐⭐⭐</p>
               <div id="perfil-name">
@@ -26,7 +40,7 @@ export const InfoProduct = () => {
           </p>
         </div>
       </div>
-      <div id="box-right">  
+      <div id="box-right">
         <div id="box1">
           <span id="blueContent">ONE TIME ONLY</span>
           Special price for 6 extra Clarifion for only
@@ -35,7 +49,7 @@ export const InfoProduct = () => {
 
         <div id="box2">
           <img
-            src="./src/assets/imgs/dispositivo.svg"
+            src={dispositivoImg}
             alt="Dispositivo Clarifion"
           />
           <div id="box2-left">
@@ -48,7 +62,7 @@ export const InfoProduct = () => {
             </div>
             <p>⭐⭐⭐⭐⭐</p>
             <p>
-              <img src="./src/assets/imgs/Ellipse 95.png" alt="Ellipse" />
+              <img src={ellipseImg} alt="Ellipse" />
               12 left in Stock
             </p>
             <p>
@@ -60,15 +74,15 @@ export const InfoProduct = () => {
 
         <div id="box3">
           <p>
-            <img src="./src/assets/imgs/tick-circle.svg" alt="check" />
+            <img src={tickCircleImg} alt="check" />
             Negative Ion Technology may help with allergens
           </p>
           <p>
-            <img src="./src/assets/imgs/tick-circle.svg" alt="check" />
+            <img src={tickCircleImg} alt="check" />
             Designed for air rejuvenation
           </p>
           <p>
-            <img src="./src/assets/imgs/tick-circle.svg" alt="check" />
+            <img src={tickCircleImg} alt="check" />
             Perfect for every room in all types of places.
           </p>
         </div>
@@ -95,13 +109,13 @@ export const InfoProduct = () => {
               <i className="fa-solid fa-lock"></i>
               <p>Secure 256-bit SSL encryption.</p><span>|</span>
               <div id="box5-sectTwo-Img">
-                <img src="./src/assets/imgs/visa.svg" alt="Visa" />
-                <img src="./src/assets/imgs/shop pay.svg" alt="O Pay" />
-                <img src="./src/assets/imgs/paypal.svg" alt="Paypal" />
-                <img src="./src/assets/imgs/mastercard.svg" alt="Mastercard" />
-                <img src="./src/assets/imgs/gpay.svg" alt="Google Pay" />
-                <img src="./src/assets/imgs/apple.svg" alt="Apple Pay" />
-                <img src="./src/assets/imgs/amex.svg" alt="Amex" />
+                <img src={visaImg} alt="Visa" />
+                <img src={shopPayImg} alt="Shop Pay" />
+                <img src={paypalImg} alt="Paypal" />
+                <img src={mastercardImg} alt="Mastercard" />
+                <img src={gpayImg} alt="Google Pay" />
+                <img src={appleImg} alt="Apple Pay" />
+                <img src={amexImg} alt="Amex" />
               </div>
             </div>
             <p>NO THANKS, I DONT´T WANT THIS</p>
@@ -111,7 +125,7 @@ export const InfoProduct = () => {
         <div id="box6">
           <img
             id="emblema"
-            src="./src/assets/imgs/emblema-garantia.png"
+            src={emblemaImg}
             alt="Emblema"
           />
           <p>
