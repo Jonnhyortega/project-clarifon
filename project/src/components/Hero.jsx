@@ -40,11 +40,11 @@ export const Hero = () => {
               <p>Cart Review</p>
             </div>
             <div>
-              <img src="./src/assets/imgs/number three.png" alt="Checkout" />
+              <img src="./src/assets/imgs/check.png" alt="Checkout" />
               <p>Checkout</p>
             </div>
             <div id="special">
-              <img src="./src/assets/imgs/4.png" alt="Special Offer" />
+              <img src="./src/assets/imgs/number three.png" alt="Special Offer" />
               <span>Special Offer</span>
             </div>
             <div>

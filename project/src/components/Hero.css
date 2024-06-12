@@ -37,8 +37,9 @@
 
 .steps > div {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: .3rem;
 }
 
 .steps > div > p {
@@ -64,7 +65,6 @@
   }
   .steps > div {
     display: flex;
-    flex-direction: column;
   }
 }
 
@@ -77,5 +77,11 @@
 
   #box-img-2{
     gap: 2rem;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 }
